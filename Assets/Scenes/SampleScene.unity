@@ -130,18 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7372881349811131315, guid: 6609fe8729f147c4d99a296b1b52e165, type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0.2306458
-      objectReference: {fileID: 0}
-    - target: {fileID: 7372881349811131315, guid: 6609fe8729f147c4d99a296b1b52e165, type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0.5943396
-      objectReference: {fileID: 0}
-    - target: {fileID: 7372881349811131315, guid: 6609fe8729f147c4d99a296b1b52e165, type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0.18166606
-      objectReference: {fileID: 0}
     - target: {fileID: 7372881350766228788, guid: 6609fe8729f147c4d99a296b1b52e165, type: 3}
       propertyPath: m_Name
       value: PlayerSystem
@@ -303,10 +291,6 @@ PrefabInstance:
     - target: {fileID: 8586735823337770360, guid: 37358e4270e3da043ad9b0494a1b8a53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8586735823988097758, guid: 37358e4270e3da043ad9b0494a1b8a53, type: 3}
-      propertyPath: _angle
-      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37358e4270e3da043ad9b0494a1b8a53, type: 3}

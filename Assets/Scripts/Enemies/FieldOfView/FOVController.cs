@@ -25,6 +25,12 @@ namespace Assets.Scripts.Enemies.FieldOfView
             this._triangles = this.CalculateTriangles();
         }
 
+        public void SetDirection(Vector2 direction)
+        {
+            if (direction.sqrMagnitude > float.Epsilon)
+                this._direction = direction;
+        }
+
         private ushort[] CalculateTriangles()
         {
             ushort[] triangles = new ushort[(this._rayCount - 1) * 3];

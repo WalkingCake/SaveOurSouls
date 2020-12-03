@@ -10,8 +10,12 @@ namespace SaveOurSouls.Player
     {
         private void Update()
         {
-            this.transform.position = new Vector3(this._player.position.x, this._player.position.y, this.transform.position.z);
+            this.transform.position = new Vector3(
+                this._player.transform.position.x,
+                this._player.transform.position.y,
+                this.transform.position.z);
         }
-        [SerializeField] private Transform _player;
+
+        [SerializeField] private Rigidbody2D _player;
     }
 }

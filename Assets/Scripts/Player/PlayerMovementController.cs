@@ -44,12 +44,11 @@ namespace SaveOurSouls.Player
             //this._rigidbody.AddForce(this._direction.normalized * this._speed * Time.fixedDeltaTime * SPEED_MULTIPLIER * this._speedMultiplier, ForceMode2D.Force);
             if (this._direction.sqrMagnitude > float.Epsilon)
             {
-                this._rigidbody.velocity = this._direction.normalized * this._speed * Time.fixedDeltaTime * SPEED_MULTIPLIER * this._speedMultiplier;
+                this._rigidbody.velocity = this._direction.normalized * this._speed /* Time.fixedDeltaTime * SPEED_MULTIPLIER */* this._speedMultiplier;
             }
         }
 
         private float _speedMultiplier;
-        private float _sqrMaxSpeed;
         private Vector2 _direction;
 
         [SerializeField] private Rigidbody2D _rigidbody;
