@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SaveOurSouls.Enemies.FieldOfView;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,125 +12,98 @@ namespace Assets.Scripts.Enemies.FieldOfView
         public event Action OnPlayerEntered;
         public event Action OnPLayerInside;
         public event Action OnPlayerExited;
+
         private void Awake()
         {
-            //SpriteRenderer renderer = this.gameObject.AddComponent<SpriteRenderer>();
-
-            Vector2[] points;
-            this.RecalculateColliderForm(out points, out _, out _);
-            
-            this._collider = this.gameObject.AddComponent<PolygonCollider2D>();
-            this._collider.isTrigger = true;
-            this._collider.points = points;
-
-            this._spriteController.Initialize(this._pixelsPerUnit, this._angle, this._distance, this._direction);
-            this._spriteController.RedrawTexture();
-            //int textureSize = (int)Mathf.Ceil(this._distance * this._pixelsPerUnit * 2);
-            //this._texture = new Texture2D(textureSize, textureSize)
-            //{
-            //    filterMode = FilterMode.Point
-            //};
-            //renderer.sprite = Sprite.Create(this._texture, new Rect(0, 0, textureSize, textureSize), Vector2.zero, this._pixelsPerUnit);
-            
+            this.Initialize();
         }
 
+        private void Initialize()
+        {
+            this._spriteController.Initialize(this._pixelsPerUnit, this._distance);
+            this._rotationMatrix = Matrix4x4.Rotate(Quaternion.Euler(new Vector3(0, 0, this._angle / this._rayCount)));
+            this._triangles = this.CalculateTriangles();
+        }
 
-
-        //private void OnDrawGizmos()
-        //{
-        //    if(this.points != null)
-        //    {
-        //        Gizmos.color = Color.red;
-        //        foreach(Vector2 point in this.points)
-        //        {
-        //            Gizmos.DrawSphere((Vector2)this.transform.position + point, 0.3f);
-        //        }
-        //    }
-        //}
-
-        
+        private ushort[] CalculateTriangles()
+        {
+            ushort[] triangles = new ushort[(this._rayCount - 1) * 3];
+            for(ushort i = 0; i < this._rayCount - 1; )
+            {
+                triangles[i * 3] = 0;
+                triangles[i * 3 + 1] = ++i;
+                triangles[(i - 1) * 3 + 2] = ++i;
+                i--;
+            }
+            return triangles;
+        }
+                
         private void RecalculateColliderForm(out Vector2[] points, out Vector2[] uv, out ushort[] triangles)
         {
             points = new Vector2[this._rayCount + 1];
             points[0] = Vector3.zero;
-            triangles = new ushort[points.Length * 3];
-            float angleStep = this._angle / this._rayCount;
-            points[1] = Matrix4x4.Rotate(Quaternion.Euler(new Vector3(0, 0, -this._angle / 2)))
+            Vector2 previousVector = Matrix4x4.Rotate(Quaternion.Euler(new Vector3(0, 0, -this._angle / 2)))
                 .MultiplyVector(this._direction.normalized * this._distance);
             
-            Matrix4x4 matrix = Matrix4x4.Rotate(Quaternion.Euler(new Vector3(0, 0, angleStep)));
-            
-            for(int i = 2; i < points.Length; i++)
+            for(ushort i = 1; i < points.Length; i++)
             {
-                points[i] = matrix.MultiplyVector(points[i - 1]);
-                RaycastHit2D hitInfo = Physics2D.Raycast(this.transform.position, points[i], this._distance);
+                points[i] = previousVector;
+                
+                RaycastHit2D hitInfo = Physics2D.Raycast(this.transform.position, points[i], this._distance, this._layerMask);
                 if(hitInfo.collider != null)
                 {
                     points[i] = this.transform.worldToLocalMatrix.MultiplyPoint(hitInfo.point);
                 }
-                triangles[(i - 1) * 3 - 3] = 0;
-                triangles[(i - 1) * 3 - 2] = (ushort)(i - 1);
-                triangles[(i - 1) * 3 - 1] = (ushort)i;
+                
+                previousVector = this._rotationMatrix.MultiplyVector(previousVector);
+                
             }
-            uv = points;
 
+            float x, y;
+            uv = new Vector2[points.Length];
+            for(int i = 0; i < uv.Length; i++)
+            {
+                x = Mathf.Round((points[i].x + this._distance) * this._pixelsPerUnit);
+                y = Mathf.Round((points[i].y + this._distance) * this._pixelsPerUnit);
+                uv[i] = new Vector2(x, y); 
+            }
+
+            triangles = this._triangles;
         }
-
-        //private void RedrawTexture()
-        //{
-        //    Vector2 center = new Vector2(this._texture.width / 2, this._texture.height / 2);
-        //    Debug.Log(center);
-        //    float convertedDistance = this._distance * this._pixelsPerUnit;
-        //    Vector2 startPoint = center - this._direction.normalized * convertedDistance / 2;
-        //    Debug.Log(startPoint);
-        //    this._texture.SetPixel((int)startPoint.x, (int)startPoint.y, this._color);
-        //    float sqrDistance = convertedDistance * convertedDistance;
-        //    for (int y = 0; y < this._texture.height; y++)
-        //    {
-        //        for (int x = 0; x < this._texture.width; x++)
-        //        {
-        //            Vector2 vector = new Vector2(x, y) - startPoint;
-        //            if(Vector2.Angle(this._direction, vector) < this._angle / 2 && vector.sqrMagnitude <= sqrDistance)
-        //            {
-        //                this._texture.SetPixel(x, y, this._color);
-        //            }
-        //            else
-        //            {
-        //                this._texture.SetPixel(x, y, new Color(0, 0, 0, 0));
-        //            }
-        //        }
-        //    }
-        //    this._texture.Apply();
-        //}
-
-
+        private Matrix4x4 _matrix = Matrix4x4.Rotate(Quaternion.Euler(0, 0, 1));
         private void Update()
         {
-            Vector2[] points, uv;
-            ushort[] triangles;
-            this.RecalculateColliderForm(out points, out uv, out triangles);
-            this._collider.points = points;
-            
-            //this._spriteController.RedrawTexture();
+            this.RecalculateColliderForm(out Vector2[] points, out Vector2[] uv, out ushort[] triangles);
+            this._colliderController.SetPoints(points);
+            this._spriteController.RecalculteSpriteGeometry(uv, triangles);
+            this._direction = _matrix.MultiplyVector(this._direction);
         }
         
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            Debug.Log($"{collision.transform.name} entered.");
+            this.OnPlayerEntered?.Invoke();
         }
+
         private void OnTriggerExit2D(Collider2D collision)
         {
-            Debug.Log($"{collision.transform.name} exited.");
+            this.OnPlayerExited?.Invoke();
         }
 
-        private PolygonCollider2D _collider;
-        private Texture2D _texture;
+        private void OnTriggerStay2D(Collider2D collision)
+        {
+            this.OnPLayerInside?.Invoke();
+        }
 
+        private Matrix4x4 _rotationMatrix;
+        private ushort[] _triangles;
+
+        [SerializeField] private LayerMask _layerMask;
         [SerializeField] private Vector2 _direction;
         [SerializeField] private int _rayCount;
         [SerializeField] private float _angle;
         [SerializeField] private float _distance;
         [SerializeField] private float _pixelsPerUnit;
         [SerializeField] FOVSpriteController _spriteController;
+        [SerializeField] FOVColliderController _colliderController;
     }
 }

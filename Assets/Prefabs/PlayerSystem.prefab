@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7372881348791611206}
   - component: {fileID: 7372881348791611227}
   - component: {fileID: 7372881348791611224}
-  m_Layer: 0
+  - component: {fileID: 854595315}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,6 +130,32 @@ MonoBehaviour:
   _shiftKeyCode: 304
   _seatKeyCode: 306
   _jumpKeyCode: 32
+--- !u!61 &854595315
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7372881348791611207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 3}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2}
+  m_EdgeRadius: 0
 --- !u!1 &7372881349811131326
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +169,7 @@ GameObject:
   - component: {fileID: 7372881349811131312}
   - component: {fileID: 7372881349811131313}
   - component: {fileID: 7372881349811131317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,13 +183,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7372881349811131326}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 50}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7372881350766228791}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &7372881349811131315
 Camera:
   m_ObjectHideFlags: 0
@@ -256,7 +283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7372881350766228791}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
