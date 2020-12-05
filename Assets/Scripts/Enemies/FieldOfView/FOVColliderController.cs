@@ -9,6 +9,7 @@ namespace SaveOurSouls.Enemies.FieldOfView
 {
     public class FOVColliderController : MonoBehaviour
     {
+
         private void Awake()
         {
             this._collider = this.gameObject.AddComponent<PolygonCollider2D>();
@@ -18,6 +19,11 @@ namespace SaveOurSouls.Enemies.FieldOfView
         public void SetPoints(Vector2[] points)
         {
             this._collider.points = points;
+        }
+
+        public void OnTriggerEnter2D(Collider2D collision)
+        {
+            
         }
 
         private PolygonCollider2D _collider;

@@ -9,9 +9,8 @@ namespace Assets.Scripts.Enemies.FieldOfView
 {
     public class FOVController : MonoBehaviour
     {
-        public event Action OnPlayerEntered;
-        public event Action OnPLayerInside;
-        public event Action OnPlayerExited;
+        public event Action<Vector2> OnPlayerEntered;
+        public event Action<Vector2> OnPLayerInside;
 
         private void Awake()
         {
@@ -76,29 +75,26 @@ namespace Assets.Scripts.Enemies.FieldOfView
 
             triangles = this._triangles;
         }
-        private Matrix4x4 _matrix = Matrix4x4.Rotate(Quaternion.Euler(0, 0, 1));
+
         private void Update()
         {
             this.RecalculateColliderForm(out Vector2[] points, out Vector2[] uv, out ushort[] triangles);
             this._colliderController.SetPoints(points);
             this._spriteController.RecalculteSpriteGeometry(uv, triangles);
-            this._direction = _matrix.MultiplyVector(this._direction);
         }
         
         private void OnTriggerEnter2D(Collider2D collision)
-        {
-            this.OnPlayerEntered?.Invoke();
-        }
-
-        private void OnTriggerExit2D(Collider2D collision)
-        {
-            this.OnPlayerExited?.Invoke();
+        { 
+            this.OnPlayerEntered?.Invoke(collision.transform.position);
+             
         }
 
         private void OnTriggerStay2D(Collider2D collision)
         {
-            this.OnPLayerInside?.Invoke();
+            this.OnPLayerInside?.Invoke(collision.transform.position);
         }
+
+
 
         private Matrix4x4 _rotationMatrix;
         private ushort[] _triangles;
@@ -109,7 +105,8 @@ namespace Assets.Scripts.Enemies.FieldOfView
         [SerializeField] private float _angle;
         [SerializeField] private float _distance;
         [SerializeField] private float _pixelsPerUnit;
-        [SerializeField] FOVSpriteController _spriteController;
-        [SerializeField] FOVColliderController _colliderController;
+        [SerializeField] private FOVSpriteController _spriteController;
+        [SerializeField] private FOVColliderController _colliderController;
+        [SerializeField] private Rigidbody2D _rigidbody;
     }
 }

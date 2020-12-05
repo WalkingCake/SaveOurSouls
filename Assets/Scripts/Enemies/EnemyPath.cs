@@ -9,33 +9,23 @@ namespace SaveOurSouls.Enemies
 {
     public class EnemyPath : MonoBehaviour
     {
-        public Vector2 Next
+        public Vector2 Next { get; private set; }
+
+        public Vector2 Current { get; private set; }
+
+        public void MoveNext()
         {
-            get
-            {
-                Vector2 previous = this._points.Current;
-                this._points.MoveNext();
-                this.TargetDirection = (this._points.Current - previous).normalized;
-                return this._points.Current;
-            }
+            if (this._points == null)
+                return;
+            this.Current = this._points.Current;
+            this._points.MoveNext();
+            this.Next = this._points.Current;
         }
-
-        public Vector2 Current
-        {
-            get
-            {
-                return this._points.Current;
-            }
-        }
-
-        public Vector2 TargetDirection { get; private set; }
-
+        
         private void Awake()
         {
-            EdgeCollider2D edges = this.GetComponent<EdgeCollider2D>();
-            this._points = this.GetPointEnumerator(edges.points.Select(point => (Vector2)this.transform.localToWorldMatrix.MultiplyPoint(point)).ToArray());
-            EdgeCollider2D.Destroy(edges);
-            this.TargetDirection = Vector2.zero;
+            this._points = this.GetPointEnumerator(this._path);
+
         }
         
         private IEnumerator<Vector2> GetPointEnumerator(Vector2[] points)
@@ -62,5 +52,7 @@ namespace SaveOurSouls.Enemies
         private IEnumerator<Vector2> _points;
 
         [SerializeField] private bool _goBack;
+
+        [SerializeField] private Vector2[] _path;
     }
 }

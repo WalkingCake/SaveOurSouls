@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7372881348791611206}
   - component: {fileID: 7372881348791611227}
   - component: {fileID: 7372881348791611224}
-  - component: {fileID: 854595315}
+  - component: {fileID: 334618806}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -130,7 +130,7 @@ MonoBehaviour:
   _shiftKeyCode: 304
   _seatKeyCode: 306
   _jumpKeyCode: 32
---- !u!58 &854595315
+--- !u!58 &334618806
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,11 +139,11 @@ CircleCollider2D:
   m_GameObject: {fileID: 7372881348791611207}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 002d73c40e1477544a987aaf0b523d85, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1
 --- !u!1 &7372881349811131326
@@ -217,7 +217,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
