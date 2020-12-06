@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.Enemies.FieldOfView;
+﻿using SaveOurSouls.Enemies.FieldOfView;
 using Pathfinding;
 using System;
 using UnityEngine;
@@ -65,7 +65,7 @@ namespace SaveOurSouls.Enemies
             Vector2 direction = currentTarget.normalized;
 
             this._rigidbody.velocity = direction * this._currentSpeed;
-            this._fovController.SetDirection(direction);
+            this._fovController?.SetDirection(direction);
 
             if (currentTarget.sqrMagnitude < this._sqrWaitingAreaRadius)
                 this._pathToPlayerPointer++;

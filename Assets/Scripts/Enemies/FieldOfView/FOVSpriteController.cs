@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
-namespace Assets.Scripts.Enemies.FieldOfView
+namespace SaveOurSouls.Enemies.FieldOfView
 {
     public class FOVSpriteController : MonoBehaviour
     {
