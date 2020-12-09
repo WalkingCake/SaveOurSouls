@@ -54,7 +54,7 @@ namespace SaveOurSouls.Enemies.FieldOfView
             {
                 points[i] = previousVector;
                 
-                RaycastHit2D hitInfo = Physics2D.Raycast(this.transform.position, points[i], this._distance, this._layerMask);
+                RaycastHit2D hitInfo = Physics2D.Raycast(this.transform.position, points[i], this._distance, this.LayerMask);
                 if(hitInfo.collider != null)
                 {
                     points[i] = this.transform.worldToLocalMatrix.MultiplyPoint(hitInfo.point);
@@ -99,7 +99,9 @@ namespace SaveOurSouls.Enemies.FieldOfView
         private Matrix4x4 _rotationMatrix;
         private ushort[] _triangles;
 
-        [SerializeField] private LayerMask _layerMask;
+        private LayerMask LayerMask => this._handler.LayerMask;
+
+        [SerializeField] private EnemyHandler _handler;
         [SerializeField] private Vector2 _direction;
         [SerializeField] private int _rayCount;
         [SerializeField] private float _angle;

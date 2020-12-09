@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2209e0c7d98c624cbd14572f300423c, type: 3}
+  m_Name: Soul
+  m_EditorClassIdentifier: 
+  itemName: Soul
+  itemTimeToPick: 1
+  itemSprite: {fileID: 2165513756366801936, guid: 025e094aec3e1544f8ea62aebf56e164, type: 3}

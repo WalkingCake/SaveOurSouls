@@ -2,11 +2,14 @@
 using Pathfinding;
 using System;
 using UnityEngine;
+using SaveOurSouls.Player;
 
 namespace SaveOurSouls.Enemies
 {
     public class Enemy : MonoBehaviour
     {
+
+        public Vector2 Direction => this._direction;
         private void Start()
         {
             
@@ -20,6 +23,11 @@ namespace SaveOurSouls.Enemies
 
             this._fovController.OnPlayerEntered += this.OnPlayerNoticed;
             this._fovController.OnPLayerInside += this.OnPlayerSupervised;
+        }
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if(collision.collider.TryGetComponent<PlayerMovementController>(out _))
+                UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
         }
 
         private void OnPathCreated(Path path)
@@ -62,10 +70,10 @@ namespace SaveOurSouls.Enemies
             }
 
             Vector2 currentTarget = (Vector2)this._path.vectorPath[this._pathToPlayerPointer] - this._rigidbody.position;
-            Vector2 direction = currentTarget.normalized;
+            this._direction = currentTarget.normalized;
 
-            this._rigidbody.velocity = direction * this._currentSpeed;
-            this._fovController?.SetDirection(direction);
+            this._rigidbody.velocity = this._direction * this._currentSpeed;
+            this._fovController?.SetDirection(this._direction);
 
             if (currentTarget.sqrMagnitude < this._sqrWaitingAreaRadius)
                 this._pathToPlayerPointer++;
@@ -124,6 +132,7 @@ namespace SaveOurSouls.Enemies
             }
         }
 
+        public Vector2 _direction;
 
         private EnemyState _state;
         private float _stayTimer;

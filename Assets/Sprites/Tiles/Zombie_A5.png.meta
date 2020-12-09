@@ -1,0 +1,3598 @@
+fileFormatVersion: 2
+guid: abfe4f079304f9246989b7fbeecd4f2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4556532274370685712
+    second: Zombie_A5_0
+  - first:
+      213: 1828757572298317134
+    second: Zombie_A5_1
+  - first:
+      213: -3036205712272206386
+    second: Zombie_A5_2
+  - first:
+      213: 2853722348478885157
+    second: Zombie_A5_3
+  - first:
+      213: 8597870578816501371
+    second: Zombie_A5_4
+  - first:
+      213: -4081676979359787689
+    second: Zombie_A5_5
+  - first:
+      213: -5535162848902260710
+    second: Zombie_A5_6
+  - first:
+      213: -1563356874504786713
+    second: Zombie_A5_7
+  - first:
+      213: 7787715551043071109
+    second: Zombie_A5_8
+  - first:
+      213: 6744285637729377616
+    second: Zombie_A5_9
+  - first:
+      213: 3906500755514376712
+    second: Zombie_A5_10
+  - first:
+      213: 6576835997615020570
+    second: Zombie_A5_11
+  - first:
+      213: -2076970653942060633
+    second: Zombie_A5_12
+  - first:
+      213: -5590348274782875033
+    second: Zombie_A5_13
+  - first:
+      213: -8455163603882609517
+    second: Zombie_A5_14
+  - first:
+      213: 4600401458070783015
+    second: Zombie_A5_15
+  - first:
+      213: 9215399974451576600
+    second: Zombie_A5_16
+  - first:
+      213: 7691821423954155947
+    second: Zombie_A5_17
+  - first:
+      213: -3103790931191992397
+    second: Zombie_A5_18
+  - first:
+      213: 1580983176545021805
+    second: Zombie_A5_19
+  - first:
+      213: -1566061872304507810
+    second: Zombie_A5_20
+  - first:
+      213: 174909181532627509
+    second: Zombie_A5_21
+  - first:
+      213: 9109787499606915611
+    second: Zombie_A5_22
+  - first:
+      213: -1240085894404987158
+    second: Zombie_A5_23
+  - first:
+      213: 4262633292511136290
+    second: Zombie_A5_24
+  - first:
+      213: -8551463440644662605
+    second: Zombie_A5_25
+  - first:
+      213: -4852312876402365759
+    second: Zombie_A5_26
+  - first:
+      213: 881721795875707523
+    second: Zombie_A5_27
+  - first:
+      213: -6220117877673538622
+    second: Zombie_A5_28
+  - first:
+      213: 1123464104962166809
+    second: Zombie_A5_29
+  - first:
+      213: -3772523194567503549
+    second: Zombie_A5_30
+  - first:
+      213: -3434216837021913876
+    second: Zombie_A5_31
+  - first:
+      213: 5087300881455216881
+    second: Zombie_A5_32
+  - first:
+      213: -4328845746954685271
+    second: Zombie_A5_33
+  - first:
+      213: 2796740589708494316
+    second: Zombie_A5_34
+  - first:
+      213: -3757293333751332461
+    second: Zombie_A5_35
+  - first:
+      213: 1985193146850761086
+    second: Zombie_A5_36
+  - first:
+      213: -6401768019239584005
+    second: Zombie_A5_37
+  - first:
+      213: -4622790444067985999
+    second: Zombie_A5_38
+  - first:
+      213: 4816981049256436407
+    second: Zombie_A5_39
+  - first:
+      213: -2654401379916497723
+    second: Zombie_A5_40
+  - first:
+      213: 6994973499505063911
+    second: Zombie_A5_41
+  - first:
+      213: 3977508023454042890
+    second: Zombie_A5_42
+  - first:
+      213: 5703275667427824722
+    second: Zombie_A5_43
+  - first:
+      213: -6413388116736547073
+    second: Zombie_A5_44
+  - first:
+      213: -602348422170711610
+    second: Zombie_A5_45
+  - first:
+      213: -3488366697731313983
+    second: Zombie_A5_46
+  - first:
+      213: 8810003766474959628
+    second: Zombie_A5_47
+  - first:
+      213: 648546813212149291
+    second: Zombie_A5_48
+  - first:
+      213: -8153888875048948353
+    second: Zombie_A5_49
+  - first:
+      213: 2663847109256920345
+    second: Zombie_A5_50
+  - first:
+      213: 7284494760977607180
+    second: Zombie_A5_51
+  - first:
+      213: 1264397271829125280
+    second: Zombie_A5_52
+  - first:
+      213: -4593339662506211641
+    second: Zombie_A5_53
+  - first:
+      213: 8828451507929571539
+    second: Zombie_A5_54
+  - first:
+      213: 6417549028094725670
+    second: Zombie_A5_55
+  - first:
+      213: -8850639762844882306
+    second: Zombie_A5_56
+  - first:
+      213: -1992347353961228222
+    second: Zombie_A5_57
+  - first:
+      213: -6348966993616881237
+    second: Zombie_A5_58
+  - first:
+      213: -1154717425788164853
+    second: Zombie_A5_59
+  - first:
+      213: -186701740977898073
+    second: Zombie_A5_60
+  - first:
+      213: 4146601315647875303
+    second: Zombie_A5_61
+  - first:
+      213: -461460298216291819
+    second: Zombie_A5_62
+  - first:
+      213: -1101204669369236679
+    second: Zombie_A5_63
+  - first:
+      213: -99919327455074106
+    second: Zombie_A5_64
+  - first:
+      213: -8763198809058398060
+    second: Zombie_A5_65
+  - first:
+      213: 5529768117482357243
+    second: Zombie_A5_66
+  - first:
+      213: -6057165408599299280
+    second: Zombie_A5_67
+  - first:
+      213: 6292565409991382467
+    second: Zombie_A5_68
+  - first:
+      213: 1534962196363967701
+    second: Zombie_A5_69
+  - first:
+      213: -2512382022995569189
+    second: Zombie_A5_70
+  - first:
+      213: 6854558084094986555
+    second: Zombie_A5_71
+  - first:
+      213: -8578924363590685733
+    second: Zombie_A5_72
+  - first:
+      213: -5280841312172781387
+    second: Zombie_A5_73
+  - first:
+      213: 8708792018500438311
+    second: Zombie_A5_74
+  - first:
+      213: -349454744886934468
+    second: Zombie_A5_75
+  - first:
+      213: -3052759883888349691
+    second: Zombie_A5_76
+  - first:
+      213: 5979971968829976768
+    second: Zombie_A5_77
+  - first:
+      213: 7330059110084987970
+    second: Zombie_A5_78
+  - first:
+      213: 2185327577538151839
+    second: Zombie_A5_79
+  - first:
+      213: -3460147935706680603
+    second: Zombie_A5_80
+  - first:
+      213: 5810322084093079010
+    second: Zombie_A5_81
+  - first:
+      213: -2293482966471037766
+    second: Zombie_A5_82
+  - first:
+      213: 6102129947003356140
+    second: Zombie_A5_83
+  - first:
+      213: 4488475848866011566
+    second: Zombie_A5_84
+  - first:
+      213: -3377434983729003932
+    second: Zombie_A5_85
+  - first:
+      213: -8320018531221650947
+    second: Zombie_A5_86
+  - first:
+      213: 2952165802205859621
+    second: Zombie_A5_87
+  - first:
+      213: 6946493051932875103
+    second: Zombie_A5_88
+  - first:
+      213: 6233166242905909434
+    second: Zombie_A5_89
+  - first:
+      213: -4977457344177880585
+    second: Zombie_A5_90
+  - first:
+      213: -8233669769646078968
+    second: Zombie_A5_91
+  - first:
+      213: 3847256003026087401
+    second: Zombie_A5_92
+  - first:
+      213: 8409374157128552639
+    second: Zombie_A5_93
+  - first:
+      213: -6277950202808799555
+    second: Zombie_A5_94
+  - first:
+      213: 1217259329191330685
+    second: Zombie_A5_95
+  - first:
+      213: 6486537186094381739
+    second: Zombie_A5_96
+  - first:
+      213: 5195326719811320873
+    second: Zombie_A5_97
+  - first:
+      213: 7444109748871208670
+    second: Zombie_A5_98
+  - first:
+      213: 7762861493330479780
+    second: Zombie_A5_99
+  - first:
+      213: 9111583234251813005
+    second: Zombie_A5_100
+  - first:
+      213: 1319758021671836290
+    second: Zombie_A5_101
+  - first:
+      213: -7246536718398562848
+    second: Zombie_A5_102
+  - first:
+      213: 1871238552208632560
+    second: Zombie_A5_103
+  - first:
+      213: 1166379488388581990
+    second: Zombie_A5_104
+  - first:
+      213: 7441532931613128322
+    second: Zombie_A5_105
+  - first:
+      213: -3823884708921423079
+    second: Zombie_A5_106
+  - first:
+      213: -4743292653249208344
+    second: Zombie_A5_107
+  - first:
+      213: 8023717814282199155
+    second: Zombie_A5_108
+  - first:
+      213: -1368286860966298370
+    second: Zombie_A5_109
+  - first:
+      213: 1189422025697205294
+    second: Zombie_A5_110
+  - first:
+      213: -7209928944877875571
+    second: Zombie_A5_111
+  - first:
+      213: 6937551016471594964
+    second: Zombie_A5_112
+  - first:
+      213: 6632969162996318023
+    second: Zombie_A5_113
+  - first:
+      213: 8251642031267345666
+    second: Zombie_A5_114
+  - first:
+      213: 8443083734828749789
+    second: Zombie_A5_115
+  - first:
+      213: 6387523046168648888
+    second: Zombie_A5_116
+  - first:
+      213: -6481463263237009739
+    second: Zombie_A5_117
+  - first:
+      213: 6563067026375932371
+    second: Zombie_A5_118
+  - first:
+      213: 1215321435337087562
+    second: Zombie_A5_119
+  - first:
+      213: -2177555476904371404
+    second: Zombie_A5_120
+  - first:
+      213: 1995935457654540348
+    second: Zombie_A5_121
+  - first:
+      213: 3263111413149484759
+    second: Zombie_A5_122
+  - first:
+      213: 7705601120346108463
+    second: Zombie_A5_123
+  - first:
+      213: -6773809112711942622
+    second: Zombie_A5_124
+  - first:
+      213: 6562183910988018121
+    second: Zombie_A5_125
+  - first:
+      213: 920876655710412618
+    second: Zombie_A5_126
+  - first:
+      213: -5869589873022916130
+    second: Zombie_A5_127
+  - first:
+      213: 8727131957332849372
+    second: Zombie_A5_0
+  - first:
+      213: -3732018094589385214
+    second: Zombie_A5_1
+  - first:
+      213: 1143575778611815622
+    second: Zombie_A5_2
+  - first:
+      213: 2310301844117970282
+    second: Zombie_A5_3
+  - first:
+      213: -1807546701140599282
+    second: Zombie_A5_4
+  - first:
+      213: -7938289535182824781
+    second: Zombie_A5_5
+  - first:
+      213: -8433802791804746962
+    second: Zombie_A5_6
+  - first:
+      213: -4995613438985657850
+    second: Zombie_A5_7
+  - first:
+      213: 5547677205181059206
+    second: Zombie_A5_8
+  - first:
+      213: 5595362194636008127
+    second: Zombie_A5_9
+  - first:
+      213: 8028887475778002785
+    second: Zombie_A5_10
+  - first:
+      213: -3037579277452653409
+    second: Zombie_A5_11
+  - first:
+      213: 5982557499254448940
+    second: Zombie_A5_12
+  - first:
+      213: 134387427581890057
+    second: Zombie_A5_13
+  - first:
+      213: -2693078589856232504
+    second: Zombie_A5_14
+  - first:
+      213: 947926900443073248
+    second: Zombie_A5_15
+  - first:
+      213: 9172421701995706634
+    second: Zombie_A5_16
+  - first:
+      213: 98604318710980310
+    second: Zombie_A5_17
+  - first:
+      213: 794134800012911762
+    second: Zombie_A5_18
+  - first:
+      213: 8341503343700305538
+    second: Zombie_A5_19
+  - first:
+      213: 1424980228662022883
+    second: Zombie_A5_20
+  - first:
+      213: 8880712219902542219
+    second: Zombie_A5_21
+  - first:
+      213: -2247281379205874803
+    second: Zombie_A5_22
+  - first:
+      213: -8929502486574201792
+    second: Zombie_A5_23
+  - first:
+      213: 5807890416434051479
+    second: Zombie_A5_24
+  - first:
+      213: -6587153299756516775
+    second: Zombie_A5_25
+  - first:
+      213: -7910654308242070870
+    second: Zombie_A5_26
+  - first:
+      213: 8001232609704741359
+    second: Zombie_A5_27
+  - first:
+      213: -8633391901859140147
+    second: Zombie_A5_28
+  - first:
+      213: 418423950761753762
+    second: Zombie_A5_29
+  - first:
+      213: -3340656295887117411
+    second: Zombie_A5_30
+  - first:
+      213: -7614250352326162116
+    second: Zombie_A5_31
+  - first:
+      213: -2326764976168052593
+    second: Zombie_A5_32
+  - first:
+      213: 7091828621603324689
+    second: Zombie_A5_33
+  - first:
+      213: -3642210222918893590
+    second: Zombie_A5_34
+  - first:
+      213: -8315001879796298564
+    second: Zombie_A5_35
+  - first:
+      213: -4476340074395099003
+    second: Zombie_A5_36
+  - first:
+      213: 2680920422909873539
+    second: Zombie_A5_37
+  - first:
+      213: -3783982586304772497
+    second: Zombie_A5_38
+  - first:
+      213: -4089672761502857288
+    second: Zombie_A5_39
+  - first:
+      213: -2699012291381673640
+    second: Zombie_A5_40
+  - first:
+      213: 5149681253055520212
+    second: Zombie_A5_41
+  - first:
+      213: -7696565967001665227
+    second: Zombie_A5_42
+  - first:
+      213: 364623943225695353
+    second: Zombie_A5_43
+  - first:
+      213: -4769639647903479424
+    second: Zombie_A5_44
+  - first:
+      213: -2159286790650604120
+    second: Zombie_A5_45
+  - first:
+      213: -5925729761809962829
+    second: Zombie_A5_46
+  - first:
+      213: -6358062048340415092
+    second: Zombie_A5_47
+  - first:
+      213: -2646876513373563102
+    second: Zombie_A5_48
+  - first:
+      213: -7469940028518684594
+    second: Zombie_A5_49
+  - first:
+      213: 1393431708809099574
+    second: Zombie_A5_50
+  - first:
+      213: -4439139728903238148
+    second: Zombie_A5_51
+  - first:
+      213: -6519725685024274464
+    second: Zombie_A5_52
+  - first:
+      213: -4671058893639743330
+    second: Zombie_A5_53
+  - first:
+      213: 3897298310216594268
+    second: Zombie_A5_54
+  - first:
+      213: -4110604862264474309
+    second: Zombie_A5_55
+  - first:
+      213: 8660861898764553770
+    second: Zombie_A5_56
+  - first:
+      213: -7918193237883197694
+    second: Zombie_A5_57
+  - first:
+      213: 279923751466597130
+    second: Zombie_A5_58
+  - first:
+      213: 8361886388833886875
+    second: Zombie_A5_59
+  - first:
+      213: -2839949741950992642
+    second: Zombie_A5_60
+  - first:
+      213: -7151801767551113978
+    second: Zombie_A5_61
+  - first:
+      213: -5834134497317394050
+    second: Zombie_A5_62
+  - first:
+      213: 477503926050298387
+    second: Zombie_A5_63
+  - first:
+      213: 6815968218375494368
+    second: Zombie_A5_64
+  - first:
+      213: 8217787403862233176
+    second: Zombie_A5_65
+  - first:
+      213: 4296739123185712359
+    second: Zombie_A5_66
+  - first:
+      213: -553400375407110131
+    second: Zombie_A5_67
+  - first:
+      213: -9158032095745533939
+    second: Zombie_A5_68
+  - first:
+      213: 6912454232836288949
+    second: Zombie_A5_69
+  - first:
+      213: 9187814796243803577
+    second: Zombie_A5_70
+  - first:
+      213: -562022080518856934
+    second: Zombie_A5_71
+  - first:
+      213: -6418059484826711812
+    second: Zombie_A5_72
+  - first:
+      213: -7608546425504302427
+    second: Zombie_A5_73
+  - first:
+      213: 6950189460180279465
+    second: Zombie_A5_74
+  - first:
+      213: 8552753312565660983
+    second: Zombie_A5_75
+  - first:
+      213: 7759223383619439836
+    second: Zombie_A5_76
+  - first:
+      213: 2490448425771210191
+    second: Zombie_A5_77
+  - first:
+      213: -958186515124082628
+    second: Zombie_A5_78
+  - first:
+      213: 6165667379714528118
+    second: Zombie_A5_79
+  - first:
+      213: 548805769911533372
+    second: Zombie_A5_80
+  - first:
+      213: -8190853869143873815
+    second: Zombie_A5_81
+  - first:
+      213: -5325769263934600870
+    second: Zombie_A5_82
+  - first:
+      213: -6246120115943117356
+    second: Zombie_A5_83
+  - first:
+      213: -5077355899549611833
+    second: Zombie_A5_84
+  - first:
+      213: 5933593188226788104
+    second: Zombie_A5_85
+  - first:
+      213: 6572044624912739792
+    second: Zombie_A5_86
+  - first:
+      213: 2252836847673871048
+    second: Zombie_A5_87
+  - first:
+      213: -2518099804073629590
+    second: Zombie_A5_88
+  - first:
+      213: -2706141358069077561
+    second: Zombie_A5_89
+  - first:
+      213: 249029544626816044
+    second: Zombie_A5_90
+  - first:
+      213: -8176633021227404909
+    second: Zombie_A5_91
+  - first:
+      213: -3335498944119438924
+    second: Zombie_A5_92
+  - first:
+      213: 1985284426330147209
+    second: Zombie_A5_93
+  - first:
+      213: 6826923136161964091
+    second: Zombie_A5_94
+  - first:
+      213: 8492770363341803152
+    second: Zombie_A5_95
+  - first:
+      213: -1844252829510926904
+    second: Zombie_A5_96
+  - first:
+      213: 1141487417052465440
+    second: Zombie_A5_97
+  - first:
+      213: -3969330094250756125
+    second: Zombie_A5_98
+  - first:
+      213: -1709159169539565271
+    second: Zombie_A5_99
+  - first:
+      213: -6177327445382554554
+    second: Zombie_A5_100
+  - first:
+      213: 5841154320533144338
+    second: Zombie_A5_101
+  - first:
+      213: 3773456320104621099
+    second: Zombie_A5_102
+  - first:
+      213: 4262829552190766933
+    second: Zombie_A5_103
+  - first:
+      213: -8226217073038049750
+    second: Zombie_A5_104
+  - first:
+      213: -3499424363474766015
+    second: Zombie_A5_105
+  - first:
+      213: -1565271042744020969
+    second: Zombie_A5_106
+  - first:
+      213: -1021226880066067310
+    second: Zombie_A5_107
+  - first:
+      213: 7435975856306325127
+    second: Zombie_A5_108
+  - first:
+      213: 5751676058957239493
+    second: Zombie_A5_109
+  - first:
+      213: 1736849956570675468
+    second: Zombie_A5_110
+  - first:
+      213: -7473006650677366285
+    second: Zombie_A5_111
+  - first:
+      213: 7092435059758071493
+    second: Zombie_A5_112
+  - first:
+      213: -884278117094576960
+    second: Zombie_A5_113
+  - first:
+      213: -1246382054492300888
+    second: Zombie_A5_114
+  - first:
+      213: 8993754056272589721
+    second: Zombie_A5_115
+  - first:
+      213: -5797167638877878471
+    second: Zombie_A5_116
+  - first:
+      213: -1055306472795195569
+    second: Zombie_A5_117
+  - first:
+      213: 5229155515389106617
+    second: Zombie_A5_118
+  - first:
+      213: 8450813445659002909
+    second: Zombie_A5_119
+  - first:
+      213: -1367249370639170471
+    second: Zombie_A5_120
+  - first:
+      213: 8485065831624010469
+    second: Zombie_A5_121
+  - first:
+      213: -7555067111168194494
+    second: Zombie_A5_122
+  - first:
+      213: -8667446129051265630
+    second: Zombie_A5_123
+  - first:
+      213: 680964719099557853
+    second: Zombie_A5_124
+  - first:
+      213: 2515107206035500081
+    second: Zombie_A5_125
+  - first:
+      213: -6690011816745417478
+    second: Zombie_A5_126
+  - first:
+      213: -7525822170318539367
+    second: Zombie_A5_127
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zombie_A5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2b8c0e6400d1970800000000000000
+      internalID: 8727131957332849372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2066ba8e055353cc0800000000000000
+      internalID: -3732018094589385214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4e5e99c1ccedf00800000000000000
+      internalID: 1143575778611815622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dd4966947df0020800000000000000
+      internalID: 2310301844117970282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ed5932add4ae6e0800000000000000
+      internalID: -1807546701140599282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba1a330ab785d190800000000000000
+      internalID: -7938289535182824781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23c7c88b0d15fa80800000000000000
+      internalID: -8433802791804746962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602a71e8b040caab0800000000000000
+      internalID: -4995613438985657850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6805957760f4dfc40800000000000000
+      internalID: 5547677205181059206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaede04548b6ad40800000000000000
+      internalID: 5595362194636008127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f945fce965c6f60800000000000000
+      internalID: 8028887475778002785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cc85eadb958d5d0800000000000000
+      internalID: -3037579277452653409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23296f3950560350800000000000000
+      internalID: 5982557499254448940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e0c4347a07dd100800000000000000
+      internalID: 134387427581890057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbc8638a4340aad0800000000000000
+      internalID: -2693078589856232504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea42fd5e76b72d00800000000000000
+      internalID: 947926900443073248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09b98db0fcfa4f70800000000000000
+      internalID: 9172421701995706634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de561efa105e5100800000000000000
+      internalID: 98604318710980310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294ab82a465550b00800000000000000
+      internalID: 794134800012911762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2866dfd8819f2c370800000000000000
+      internalID: 8341503343700305538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2da55d7fb86c310800000000000000
+      internalID: 1424980228662022883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8103c346b0ae3b70800000000000000
+      internalID: 8880712219902542219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b75120e7d00d0e0800000000000000
+      internalID: -2247281379205874803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04407ca8cc8041480800000000000000
+      internalID: -8929502486574201792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79972fdef85c99050800000000000000
+      internalID: 5807890416434051479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a78fe59fab594a0800000000000000
+      internalID: -6587153299756516775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa26150b1d5b73290800000000000000
+      internalID: -7910654308242070870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe909ba8aa61a0f60800000000000000
+      internalID: 8001232609704741359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcda3f29ec7003880800000000000000
+      internalID: -8633391901859140147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac7ba6cd5a8ec500800000000000000
+      internalID: 418423950761753762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93e9f66cca93a1d0800000000000000
+      internalID: -3340656295887117411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39c4b685afb45690800000000000000
+      internalID: -7614250352326162116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88dea7f49ba5bfd0800000000000000
+      internalID: -2326764976168052593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1134d96ae8c3b6260800000000000000
+      internalID: 7091828621603324689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef7f997915447dc0800000000000000
+      internalID: -3642210222918893590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc490858dd2b9c80800000000000000
+      internalID: -8315001879796298564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580a5d34b68d0e1c0800000000000000
+      internalID: -4476340074395099003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d02a6abea843520800000000000000
+      internalID: 2680920422909873539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f664a0bd2e79c7bc0800000000000000
+      internalID: -3783982586304772497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7080b9a409e37c0800000000000000
+      internalID: -4089672761502857288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85148c7fe9e2b8ad0800000000000000
+      internalID: -2699012291381673640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dddcd2c0d7577740800000000000000
+      internalID: 5149681253055520212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531418af70e403590800000000000000
+      internalID: -7696565967001665227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cd1946b876f0500800000000000000
+      internalID: 364623943225695353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0890818c206decdb0800000000000000
+      internalID: -4769639647903479424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d313ba1ca802e0800000000000000
+      internalID: -2159286790650604120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b86b507d2493cda0800000000000000
+      internalID: -5925729761809962829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de6c4e040a3c7a0800000000000000
+      internalID: -6358062048340415092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2275b08b5d7644bd0800000000000000
+      internalID: -2646876513373563102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e482caa1f11755890800000000000000
+      internalID: -7469940028518684594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639f456a1c6765310800000000000000
+      internalID: 1393431708809099574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd0666afe10562c0800000000000000
+      internalID: -4439139728903238148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7432f48084585a0800000000000000
+      internalID: -6519725685024274464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e988caf3fa01d2fb0800000000000000
+      internalID: -4671058893639743330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53b0341a2cf51630800000000000000
+      internalID: 3897298310216594268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b358bbc18a234f6c0800000000000000
+      internalID: -4110604862264474309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e839c7200913870800000000000000
+      internalID: 8660861898764553770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2076219d33dec1290800000000000000
+      internalID: -7918193237883197694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b7c5a3b2d72e300800000000000000
+      internalID: 279923751466597130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b922e921e536b0470800000000000000
+      internalID: 8361886388833886875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe7c03a1c87698d0800000000000000
+      internalID: -2839949741950992642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605ea1d2f22bfbc90800000000000000
+      internalID: -7151801767551113978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e796b83d59df80fa0800000000000000
+      internalID: -5834134497317394050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a15137a4f60a600800000000000000
+      internalID: 477503926050298387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea9f986bfe279e50800000000000000
+      internalID: 6815968218375494368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85053e6aa127b0270800000000000000
+      internalID: 8217787403862233176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecf10aa77511ab30800000000000000
+      internalID: 4296739123185712359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d089a456a4de158f0800000000000000
+      internalID: -553400375407110131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08167b845228e080800000000000000
+      internalID: -9158032095745533939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b13a524088fdef50800000000000000
+      internalID: 6912454232836288949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd9038c0eca18f70800000000000000
+      internalID: 9187814796243803577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f5fbe35eb4338f0800000000000000
+      internalID: -562022080518856934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8c39327e87ee6a0800000000000000
+      internalID: -6418059484826711812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa7fba7653096690800000000000000
+      internalID: -7608546425504302427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0a5b78d78047060800000000000000
+      internalID: 6950189460180279465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d8507c2db71b670800000000000000
+      internalID: 8552753312565660983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc8a89ae8c4eab60800000000000000
+      internalID: 7759223383619439836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc51685f5a9df8220800000000000000
+      internalID: 2490448425771210191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38a571f076d3b2f0800000000000000
+      internalID: -958186515124082628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673191390d9d09550800000000000000
+      internalID: 6165667379714528118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ff246a0ffbd9700800000000000000
+      internalID: 548805769911533372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6ab829dcd345e80800000000000000
+      internalID: -8190853869143873815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a590c7352111716b0800000000000000
+      internalID: -5325769263934600870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde9c019d25159a0800000000000000
+      internalID: -6246120115943117356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c88c19d5bb9989b0800000000000000
+      internalID: -5077355899549611833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b6fe1319b585250800000000000000
+      internalID: 5933593188226788104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd60f324c7943b50800000000000000
+      internalID: 6572044624912739792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca038a4d2fa34f10800000000000000
+      internalID: 2252836847673871048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68e535d199ed0dd0800000000000000
+      internalID: -2518099804073629590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_89
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9ac48c5cad17ad0800000000000000
+      internalID: -2706141358069077561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c240f0a2d0bb47300800000000000000
+      internalID: 249029544626816044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391f20fb693c68e80800000000000000
+      internalID: -8176633021227404909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1021fe16de5b1d0800000000000000
+      internalID: -3335498944119438924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9890681daa52d8b10800000000000000
+      internalID: 1985284426330147209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3064d7fb6a1ebe50800000000000000
+      internalID: 6826923136161964091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e04f916a16cd570800000000000000
+      internalID: 8492770363341803152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdfdf4a2d5e766e0800000000000000
+      internalID: -1844252829510926904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0298df802c067df00800000000000000
+      internalID: 1141487417052465440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e77ae74f4b1ae8c0800000000000000
+      internalID: -3969330094250756125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9291ef27ac8d748e0800000000000000
+      internalID: -1709159169539565271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c93b4da69b54aa0800000000000000
+      internalID: -6177327445382554554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213cd9128e2ff0150800000000000000
+      internalID: 5841154320533144338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24e94fc7820e5430800000000000000
+      internalID: 3773456320104621099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f3e5c64ec982b30800000000000000
+      internalID: 4262829552190766933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e305c082b96dd80800000000000000
+      internalID: -8226217073038049750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1473db8051c8f6fc0800000000000000
+      internalID: -3499424363474766015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7109900a74a074ae0800000000000000
+      internalID: -1565271042744020969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294e492309fd3d1f0800000000000000
+      internalID: -1021226880066067310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7860581d4a4e13760800000000000000
+      internalID: 7435975856306325127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4d345e6ee02df40800000000000000
+      internalID: 5751676058957239493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c093c8155d78a1810800000000000000
+      internalID: 1736849956570675468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_111
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f17e3e7b0c8a4890800000000000000
+      internalID: -7473006650677366285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cef7690c146d6260800000000000000
+      internalID: 7092435059758071493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc2de3dcb96ab3f0800000000000000
+      internalID: -884278117094576960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a990930026f3bee0800000000000000
+      internalID: -1246382054492300888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9933b59c9ab30dc70800000000000000
+      internalID: 8993754056272589721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9374b454fb25c8fa0800000000000000
+      internalID: -5797167638877878471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f473fdfaa5cca51f0800000000000000
+      internalID: -1055306472795195569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9da0a6c31b19840800000000000000
+      internalID: 5229155515389106617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d188993fd02574570800000000000000
+      internalID: 8450813445659002909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9540daff0fd860de0800000000000000
+      internalID: -1367249370639170471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eae0c50b6201c570800000000000000
+      internalID: 8485065831624010469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2484598ad72072790800000000000000
+      internalID: -7555067111168194494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a59010faab07b780800000000000000
+      internalID: -8667446129051265630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7b08addc5437900800000000000000
+      internalID: 680964719099557853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c65c3ada477e220800000000000000
+      internalID: 2515107206035500081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af449b7a2bd4823a0800000000000000
+      internalID: -6690011816745417478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_A5_127
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995776f0c98ee8790800000000000000
+      internalID: -7525822170318539367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
