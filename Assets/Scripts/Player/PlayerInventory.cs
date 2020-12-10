@@ -51,6 +51,8 @@ namespace Player
 
         public void DropAllSouls()
         {
+            if (this._pickedSoulsCount <= 0)
+                return;
             Matrix4x4 matrix = Matrix4x4.Rotate(Quaternion.Euler(0, 0, 360 / this._pickedSoulsCount));
             Vector2 position = Vector2.up;
             while(this._pickedSoulsCount > 0)

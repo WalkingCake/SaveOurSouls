@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace SaveOurSouls.Player
 {
@@ -27,6 +28,12 @@ namespace SaveOurSouls.Player
         {
             this._direction = Vector2.zero;
             this._speedMultiplier = 1f;
+
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene(0);
+            }
+
             if (Input.GetKey(this._upKeyCode))
             {
                 this._direction += Vector2.up;

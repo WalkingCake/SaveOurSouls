@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace SaveOurSouls.Player
 {
@@ -18,9 +19,13 @@ namespace SaveOurSouls.Player
             {
                 int soulsCount = inventory.HandOverSouls();
                 string[] text = this._text.text.Split('\n');
-                text[1] = (Int32.Parse(text[1]) + soulsCount).ToString();
+                soulsCount = Int32.Parse(text[1]) + soulsCount;
+                text[1] = soulsCount.ToString();
+                if (soulsCount >= 10)
+                    SceneManager.LoadScene(0);
                 this._text.text = text[0] + "\n" + text[1];
             }
+            
         }
         [SerializeField] private TextMeshPro _text;
     }
