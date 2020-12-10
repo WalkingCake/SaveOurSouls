@@ -10,8 +10,18 @@ namespace SaveOurSouls.Player
     public class PlayerMovementController : MonoBehaviour
     {
 
+        public PlayerInventory Inventory => this._inventory;
         public bool IsRunning => this._isShiftDown;
         public bool IsSeating => this._isCtrlDown;
+        private void Awake()
+        {
+            this._startPosition = this.transform.position;
+        }
+
+        public void ResetPosition()
+        {
+            this.transform.position = this._startPosition;
+        }
 
         private void Update()
         {
@@ -69,6 +79,8 @@ namespace SaveOurSouls.Player
         private Vector2 _direction;
         private bool _isShiftDown;
         private bool _isCtrlDown;
+
+        private Vector2 _startPosition;
 
         [SerializeField] private Rigidbody2D _rigidbody;
         [SerializeField] private Animator _animator;

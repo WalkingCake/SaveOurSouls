@@ -3,6 +3,7 @@ using Pathfinding;
 using System;
 using UnityEngine;
 using SaveOurSouls.Player;
+using Player;
 
 namespace SaveOurSouls.Enemies
 {
@@ -15,6 +16,7 @@ namespace SaveOurSouls.Enemies
             
             this._state = EnemyState.Stay;
             this._stayTimer = 0f;
+            this._enemyPath.MoveNext();
             this._rigidbody.MovePosition(this._enemyPath.Current);
             this._seeker.StartPath(this._rigidbody.position, this._enemyPath.Next, this.OnPathCreated);
 
@@ -26,8 +28,11 @@ namespace SaveOurSouls.Enemies
         }
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if(collision.collider.TryGetComponent<PlayerMovementController>(out _))
-                UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+            if(collision.collider.TryGetComponent<PlayerMovementController>(out PlayerMovementController player))
+            {
+                player.Inventory.DropAllSouls();
+                player.ResetPosition();
+            }
         }
 
         private void OnPathCreated(Path path)

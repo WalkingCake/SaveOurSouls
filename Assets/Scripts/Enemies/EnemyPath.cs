@@ -25,6 +25,7 @@ namespace SaveOurSouls.Enemies
         private void Awake()
         {
             this._points = this.GetPointEnumerator(this._path);
+            this.MoveNext();
 
         }
         

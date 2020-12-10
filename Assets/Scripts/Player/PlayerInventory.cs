@@ -38,9 +38,25 @@ namespace Player
 
             if (_pickedSoulsCount > 0 && Input.GetKeyDown(KeyCode.R))
             {
+                this.DropSoul(this.transform.position);
+            }
+        }
+
+        private void DropSoul(Vector2 position)
+        {
                 var soulDrop = Instantiate(_soulPrefab);
-                soulDrop.transform.position = this.transform.position;
+                soulDrop.transform.position = position;
                 _pickedSoulsCount--;
+        }
+
+        public void DropAllSouls()
+        {
+            Matrix4x4 matrix = Matrix4x4.Rotate(Quaternion.Euler(0, 0, 360 / this._pickedSoulsCount));
+            Vector2 position = Vector2.up;
+            while(this._pickedSoulsCount > 0)
+            {
+                this.DropSoul((Vector2)this.transform.position + position);
+                position = matrix.MultiplyVector(position);
             }
         }
 
@@ -110,10 +126,8 @@ namespace Player
         }
 
         private ProgressBar _progressBar;
-        [SerializeField]
-        private Soul _soulPrefab;
-        [SerializeField]
-        private int _pickedSoulsCount;
+        [SerializeField] private Soul _soulPrefab;
+        [SerializeField] private int _pickedSoulsCount;
 
         private List<Soul> _soulsAround;
         private bool _anySoulsAround;
