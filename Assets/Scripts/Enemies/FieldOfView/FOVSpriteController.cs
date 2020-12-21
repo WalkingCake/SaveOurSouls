@@ -25,7 +25,7 @@ namespace SaveOurSouls.Enemies.FieldOfView
             this._renderer.color = this._color;
             
             this._renderer.sprite = Sprite.Create(texture, new Rect(0, 0, textureSize, textureSize), Vector3.one * 0.5f, pixelsPerUnit);
-            this._renderer.sortingOrder = 1;
+            this._renderer.sortingOrder = 2;
             
         }
 
